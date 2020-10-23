@@ -1,32 +1,27 @@
-<h2 align="center">Laravel</h2>
+# api-with-express
+Fingindo que está trabalhando com uma lista de produtos em uma API REST. 😅
+<h3>API com Express</h3>
 
-## 🛠 Tecnologias utilizadas além do Laravel:
+## 🛠 Tecnologias utilizadas durante esse projeto:
 
-- [MySQL](https://www.mysql.com)
+- [Express](https://expressjs.com/pt-br/)
+- [Postman](https://www.postman.com/)
 
-## 💻 Sobre
+## 💻 Sobre o projeto
 
-Feito para o aprendizado em Rotas, Controllers, Views, Request, Banco de Dados e Eloquent ORM.
+API REST simples mostrando como fazer uma requisição pelo browser ou pelo Postman e fazer dar uma resposta usando o JSON. Basicamente esse projeto entra no princípio da API REST.
 
 ## ⌨ Como executar o projeto
 
-Necessita de ter o Docker(https://www.docker.com/) instalado. Pode baixá-lo no próprio site.
-
 ```bash
 # Clonar o repositório
-git clone https://github.com/robsonshockwave/curso-laravel-6
-
+git clone https://github.com/robsonshockwave/api-with-express
 # Entrar no diretório
-cd curso-laravel-6
-
+cd proffy-discovery
 # Baixar as dependências
-composer update
-
-# Baixar os dados do banco de dados
-php artisan migrate
-
+npm i
 # Executar o servidor
-php artisan serve
+npm run dev
 ```
 
 ## :memo: Licença
